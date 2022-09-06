@@ -14,7 +14,7 @@ public class Sendmail {
 
         int delay = 1000;
         String add = "s1910776123@ru.ac.bd";
-        String pass = "dbc595fb31";
+        String pass = "[password]";
         String address = new String(Base64.getEncoder().encode(add.getBytes()));
         String password = new String(Base64.getEncoder().encode(pass.getBytes()));
         SSLSocketFactory sslsocketfact = (SSLSocketFactory) SSLSocketFactory.getDefault();
